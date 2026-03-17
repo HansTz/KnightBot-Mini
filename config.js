@@ -4,24 +4,24 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['91xxxxxxxxxxx','917023951514'], // Add your number without + or spaces (e.g., 919876543210)
-    ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
+    ownerNumber: ['255753668403','255753668403'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerName: ['Vortex Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
-    botName: 'Knight Bot Mini',
+    botName: 'Vortex Bot Mini',
     prefix: '.',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
-    updateZipUrl: 'https://github.com/mruniquehacker/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
+    updateZipUrl: 'https://github.com/mruniquehacker/VortexBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
     
     // Sticker Configuration
-    packname: 'Knight Bot Mini',
+    packname: 'Vortex Bot Mini',
     
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
-    autoRead: false,
-    autoTyping: false,
+    autoRead: true,
+    autoTyping: true,
     autoBio: false,
     autoSticker: false,
     autoReact: false,
@@ -32,17 +32,17 @@ module.exports = {
     defaultGroupSettings: {
       antilink: false,
       antilinkAction: 'delete', // 'delete', 'kick', 'warn'
-      antitag: false,
+      antitag: true,
       antitagAction: 'delete',
       antiall: false, // Owner only - blocks all messages from non-admins
-      antiviewonce: false,
+      antiviewonce: true,
       antibot: false,
-      anticall: false, // Anti-call feature
+      anticall: true, // Anti-call feature
       antigroupmention: false, // Anti-group mention feature
       antigroupmentionAction: 'delete', // 'delete', 'kick'
-      welcome: false,
+      welcome: true,
       welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ botName*',
-      goodbye: false,
+      goodbye: true,
       goodbyeMessage: 'Goodbye @user 👋 We will never miss you!',
       antiSpam: false,
       antidelete: false,
@@ -74,16 +74,16 @@ module.exports = {
     },
     
     // Timezone
-    timezone: 'Asia/Kolkata',
+    timezone: 'Africa/Tanzania',
     
     // Limits
     maxWarnings: 3,
     
     // Social Links (optional)
     social: {
-      github: 'https://github.com/mruniquehacker',
+      github: 'https://github.com/Mrhanstz',
       instagram: 'https://instagram.com/yourusername',
-      youtube: 'http://youtube.com/@mr_unique_hacker'
+      youtube: 'http://youtube.com/@HansTzTech'
     }
 };
   
